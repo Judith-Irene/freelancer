@@ -51,6 +51,32 @@ header,section {
 	color:black;
 	width:15%;
 }
+.contacto{
+	margin-top:20px;
+}
+.contacto .row{
+	margin-top: 25px;
+}
 .name, .phone, .mesage{
 	border-top:1px solid #F2F2F2;
+	color:#D8D8D8;
+	text-align: left;
+	padding:25px 0px;
+}
+.mesage{
+	border-bottom: 1px solid #F2F2F2;
+	padding-bottom:50px;
+}
+.contacto .btn {
+    margin: 15px 0;
+    background-color: #1abc9c;
+    color: #fff;
+}
+.boton{
+	text-align: left;
+}
+.btn:hover {
+    border: 1px solid #1abc9c;
+    background-color: #fff !important;
+    color: #1abc9c;
 }
