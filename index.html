@@ -11,7 +11,6 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
-
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -24,171 +23,227 @@
     <![endif]-->
 
 </head>
-
 <body>
-<header>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="wrapper">
+       <div class="header">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#"><h3>FREELANCER</h3></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="content-intro text-center">
+            <h1 class="font-700">SUPER STAR</h1>
+            </br>
+            <div>
+                <div class="raya"></div>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span><div class="raya"></div>
+            </div>
+            </br>
+            <p>Web Developer - Graphic Artist-User - Experiencie Designer</p>
+        </div>
+    </div>
+    <div id="portfolio" class="content-portafolio text-center pad-top-90">
+        <div class="container">
+            <h2 class="font-700">PORTAFOLIO</h2>
+            <div>
+                <div class="raya-black"></div>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                <div class="raya-black"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-about text-center pad-top-90">
+        <div class="container">
+            <h2 class="font-700">ABOUT</h2>
+            <div>
+                <div class="raya"></div>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span><div class="raya"></div>
+            </div>
+            </br>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                </div>
+                <div class="col-md-4">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                </div>
+            </div>
+            </br>
+            <button type="button" class="btn btn-default">Download Theme</button> 
+        </div>   
+    </div>
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+          <h2>CONTACT</h2>
+                <div>
+                <div class="raya-black"></div>
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                <div class="raya-black"></div>
+            </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                    <input type="text" class="form-control" id="mensaje" placeholder="Message">
+                    <br>
+                    <button type="button" class="boton2">Send</button>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+    <footer class="redes text-center">  
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#myPage">FREELANCER</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class=""><a href="#about">PORTFOLIO</a></li>
-            <li class=""><a href="#services">ABOUT</a></li>
-            <li class=""><a href="#portfolio">BLOG</a></li>
-            <li class=""><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <h4 class="font-700">LOCATION</h4>
+                  <p>3481 Melrose Place </br>Beverly Hills, CS 90210</p>
+              </div>
+              <div class="col-md-4">
+                  <h4 class="font-700">AROUND THE WEB</h4>
+                  <ul>
+                      <li><div class="circulo"><i class="fa fa-facebook"></i></div></li>
+                      <li><div class="circulo"><i class="fa fa-circle"></i></div></li>
+                      <li><div class="circulo"><i class="fa fa-twitter"></i></div></li>
+                      <li><div class="circulo"><i class="fa fa-linkedin"></i></div></li>
+                      <li><div class="circulo"><i class="fa fa-dribbble"></i></div></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h4 class="font-700">ABOUT FREELANCER</h4>
+                  <p>Freelancer is a free to use, open source Bootstrap theme created by <span class="turq">Start </br> Bootstrap</span></p>
+              </div>
+          </div>
+      </div>     
+      <div class="final">
+       <p>Copyright &copy; Your Website</p>
       </div>
-    </nav><!--aqui termina el menú-->
-
-    <div class="centrado">
-    
-        <div class="container-fluid bg-1 text-center">
-          <h1>SUPER STAR</h1>
-          <span><i class="fa fa-star"></i></span>
-          <p>Web Developer-Graphic Artist- User Experience Decigner</p>
-        </div>
-
-    </div>
-
-</header>
-<div class="portafolio">
-    <div class="subtitulo bg-1 text-center">
-          <h2>SUPER STAR</h2>
-          <span><i class="fa fa-star"></i></span>
-    </div>
-</div>
-
-<div class="container text-center">
-    <div class="row">
-        <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/cabin.png" alt="">
-            </div>
-        </div>
-        <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/cake.png" alt="">
-            </div>
-        </div>
-        <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/circus.png" alt="">
-            </div>
-        </div>
-    
-       <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/game.png" alt="">
-            </div>
-        </div>
-        <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/safe.png" alt="">
-            </div>
-        </div>
-        <div class="imagen">
-            <div class="col-sm-4">
-             <img src="img/portfolio/submarine.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-
-<section>
-    <div class="container text-center">
-        <div class="row">
-             <div class="text-center">
-                <h2>ABOUT</h2>
-                <span><i class="fa fa-star"></i></span> 
-            </div>
-                    <br>
-
-            <div class="about">
-                <div class="col-sm-2"></div>
-            </div>
-
-            <div class="about">
-                <div class="col-sm-4">
-                    <div class="aling-derecha">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quidem placeat nisi provident eum expedita eos accusantium, cupiditate consectetur nisi provident eum expedita eos accusantium, cupiditate consectetur deserunt obcaecati amet voluptate, seades libero officiis qui eveniet voluptatibus magnam dolor.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about">
-                <div class="col-sm-4">
-                    <div class="aling-derecha">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quidem placeat nisi provident eum expedita eos accusantium, cupiditate consectetur deserunt obcaecati amet voluptate, libero officiis qui eveniet voluptatibus magnam dolor.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about">
-                <div class="col-sm-2"></div>
-            </div>    
-        </div>
-    
-        <center>
-            <div class="boton">
-            <span><i class="fa fa-download"></i> Download Theme</span>
-            </div>
-        </center>
-    </div>
-
-</section>
-<div class="contacto">
-    <div class="container  text-center">
-        <h2>CONTAC ME</h2>
-        <span><i class="fa fa-star"></i></span>
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <div class="name">
-                    <p>Name</p>
-                    <br>
-                    <p>Email Adress</p>
-                </div>
-                <div class="phone">
-                    <p>Phone Numbers</p>
-                </div>
-                <div class="mesage">
-                    <p>Mesage</p>
-                </div>
-                <div class="boton">
-                    <button class="btn ">Send</button>
-                </div>
-            </div>
-            <div class="col-sm-2"></div>
-        </div>
-        
-    </div>
-</div>
-<footer>
-    <div class="container  text-center">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>LOCATION</h3>
-            </div>
-            <div class="col-sm-4">
-                
-            </div>
-            <div class="col-sm-4">
-                
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer> 
     <!-- Inserta tu código aqui -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/freelancer.js"></script>
+    <script src="slider/js/jssor.slider.min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+        $( "#miformulario" ).submit(function( event ) {
+          //alert( "submit called" );
+          //event.preventDefault();
+          $('#fg_nombre').removeClass('has-error');
+          $('#fg_nombre').find('span').text("");
+          $('#fg_dircorreo').removeClass('has-error');
+          $('#fg_dircorreo').find('span').text("");
+          var nombre = $('[name=nombre]').val();
+          var dircorreo = $('[name=dircorreo]').val();
+          //alert('nombre: '+nombre+', correo: '+dircorreo);
+          if(nombre==""){
+            $('[name=nombre]').closest('.form-group').addClass("has-error");
+            //$('#fg_nombre').addClass('has-error');
+            $('#fg_nombre').find('span').text("Debe ingresar un nombre");
+            return false;
+          }else{
+            if(nombre.length<5){
+              $('#fg_nombre').addClass('has-error');
+              $('#fg_nombre').find('span').text("Debe ingresar un nombre mas largo"); 
+              return false;
+            }
+          }
+          if(dircorreo==""){  
+            $('#fg_dircorreo').addClass('has-error');
+            $('#fg_dircorreo').find('span').text("debe ingresar una direccion de correo");
+            return false;
+          }else{
+            /*var arrobas = dircorreo.indexOf("@");
+            if(arrobas==-1){
+              $('#fg_dircorreo').addClass('has-error');
+            }*/
+            var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+            if (testEmail.test(dircorreo)){
+              // Do whatever if it passes.
+            }else{
+              $('#fg_dircorreo').addClass('has-error');
+              $('#fg_dircorreo').find('span').text("debe ingresar una direccion de correo valida");
+              return false;
+            }
+          }
+          //return false;
+        });
+
+        /*$('.navbar-nav a').click(function(event){
+          var selector = $(this).attr('href');//#portfolio
+          var offset = $(selector).offset().top;//$("#portfolio").offset().top
+          $('body, html').animate({
+            scrollTop:offset
+          },2000);
+          event.preventDefault();
+        });*/
+
+
+        mause = {
+          color:'negro',
+          tamano:'mediano',
+          botones:3,
+          ubi_x:0,
+          ubi_y:0,//propiedades
+          mover_x: function(px){//metodo
+            console.log(this);
+            this.ubi_x=this.ubi_x+px;
+            return true;
+          }
+        };
+
+        $.fn.enrojecer = function(color){
+          this.css({'color':color,'background': color});
+          return this;
+        }
+        $.fn.menuscroll = function(){
+          this.click(function(event){
+            var selector = $(this).attr('href');//#portfolio
+            var offset = $(selector).offset().top;//$("#portfolio").offset().top
+            $('body, html').animate({
+              scrollTop:offset
+            },2000);
+            event.preventDefault();
+          });
+        }
+    });
+    </script>
 </body>
 
 </html>
